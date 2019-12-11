@@ -1,0 +1,53 @@
+.banner{
+  background-image: linear-gradient(-225deg,rgba(30, 30, 30, 0.78) 0%,rgba(30, 30, 30, 0.22) 100%),url(../../images/background.jpg);
+  color: white;
+  padding: 150px 0px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 46px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+  }
+}
+
+.banner h1{
+  font-size: 55px;
+   width:700px;
+  margin:0px 85px;
+  margin-bottom: 38px;
+  margin-top: 55px;
+}
+
+.banner h2{
+  font-size: 27px;
+  font-weight: lighter;
+  opacity: 0.97;
+  width:700px;
+  margin:0px 120px;
+  margin-bottom: 35px;
+}
+
+.banner a{
+  width:700px;
+  margin:0px 680px;
+  margin-top: 20px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0,90);
+}
+
+
